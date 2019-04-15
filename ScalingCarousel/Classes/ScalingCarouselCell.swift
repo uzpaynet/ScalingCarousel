@@ -28,7 +28,7 @@ open class ScalingCarouselCell: UICollectionViewCell {
     open var scaleDivisor: CGFloat = 10.0
 
     /// The minimum value to alpha to, should be set between 0 and 1
-    open var alphaMinimum: CGFloat = 0.85
+    open var alphaMinimum: CGFloat = 1
 
     // MARK: - IBOutlets
 
